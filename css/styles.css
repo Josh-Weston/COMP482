@@ -1,0 +1,64 @@
+
+:root {
+    --active-color: #009688;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+body {
+    margin-bottom: 50px;
+}
+
+.active-color {
+    color: var(--active-color);
+}
+
+.icon-button {
+    font-size: 22px;
+}
+
+#print-title {
+    display: none;
+}
+
+.arrow-open {
+    transform: rotate(180deg);
+}
+
+.list-expand {
+    max-height: 0px;
+    transition: max-height .2s ease;
+}
+
+.list-expanded {
+    max-height: 500px;
+}
+
+@media print {
+    #react-app > div > *:not(#summary-container) {
+        display: none;
+    }
+
+    #summary-container {
+        width: 90%;
+    }
+
+    #print-title {
+        display: block;
+        font-size: 50px;
+        margin: 50px;
+        color: #707070; 
+    }
+
+    div[role="tooltip"] {
+        display: none;
+    }
+
+    .edit-button {
+        display: none !important;
+    }
+}

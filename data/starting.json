@@ -1,0 +1,54 @@
+[
+    {
+        "Project Name": "Crop Yield Analysis with Drones",
+        "Company": "Fry Co.",
+        "Project Manager": "Rose Lyons",
+        "Status": "New Project",
+        "Requested Completion Date": "2019-01-12",
+        "Project Sponsor": "Kay Tightneck",
+        "Project Description": "This project will analyze drone imagery to understand proper spacing of plants in a potato field. The intent is to determine if crop yields can be improved with better planter accuracy. Measurements today are taken manually on only a small sample of fields, and only on a small portion of those fields. The solution will need to be automatic and accessible to the planters once a year.",
+        "Update": "Drone imagery has been received and algorithm design has begun. Likely a week or two away from an initial assessment to determine if the project is fully feasible. The images are in 4K and; therefore, are quite large. Issues could arise with the image orientations, as well as quality.",
+        "Evaluation Big": 2,
+        "Evaluation Fast": 2,
+        "Evaluation Score": 4
+    },
+    {
+        "Project Name": "Fleet Route Optimization",
+        "Company": "Transportation Co.",
+        "Project Manager": "Terry Loy",
+        "Status": "Pending",
+        "Requested Completion Date": "2019-07-31",
+        "Project Sponsor": "Dick Weerdly",
+        "Project Description": "Opportunity to use optimization models to plan fleet route and allocations. Currently performed manually planners; therefore, it is difficult to confirm if decisions are objectively optimal. As most routes are highway, the optimization potential exists in the allocatio decisions (e.g. which driver for which load). This project will initially focus on linehaul.",
+        "Update": "In proof-of-concept and requirement elicitation phase. This project will require internal resources to help with change management and implementation. Another resource is required to help with optimization and solution design. Initial estimates are 6 months for completion.",
+        "Evaluation Big": 5,
+        "Evaluation Fast": 2,
+        "Evaluation Score": 7 
+    },
+    {
+        "Project Name": "Line Speed Analysis",
+        "Company": "Tissue Co.",
+        "Project Manager": "Terry Loy",
+        "Status": "In-Progress",
+        "Requested Completion Date": "2019-03-30",
+        "Project Sponsor": "Scott Chestnut",
+        "Project Description": "Line speeds on production lines are currently determined by the operators, without reference to optimal performance or standard ranges. The intent is to produce a standard line speed for each SKU running through each line in an attempt to optimize throughput and eliminate differences between each shift.",
+        "Update": "Project charter has been created and approved by the project sponsor. Initial meetings are scheduled for next week. Immediate concerns revolve around access to the machine data, as well as, input and output specificiations for materials.",
+        "Evaluation Big": 4,
+        "Evaluation Fast": 4,
+        "Evaluation Score": 8 
+    },
+    {
+        "Project Name": "Fleet Maintenance Cost Model",
+        "Company": "Transportation Co.",
+        "Project Manager": "Rose Lyons",
+        "Status": "Pending",
+        "Requested Completion Date": "2019-02-28",
+        "Project Sponsor": "Kay Tightneck",
+        "Project Description": "Maintenance costs for transportation fleet (trucks and trailers) has been steadily increasing. The ability to meet budget is in jeopardy; however, there are no controls in place to monitor and predict maintenance costs. It is proposed that a predictive model be built to aid in decision support.",
+        "Update": "Project sponsor is enthusiastic and excited for any help that can be provided. Initial work will involve automating current processes, followed by a more iterative process of identifying key issues and addressing them based on priority.",
+        "Evaluation Big": 2,
+        "Evaluation Fast": 4,
+        "Evaluation Score": 6 
+    }
+]
